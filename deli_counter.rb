@@ -8,3 +8,7 @@ def take_a_number(kd, person)
   kd.push(person)
   puts "Welcome, #{person}. You are number #{kd.count} in line."
 end
+
+def now_serving(kd)
+  puts "Currently serving #{kd.shift}."
+end
