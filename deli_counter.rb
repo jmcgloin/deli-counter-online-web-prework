@@ -3,6 +3,7 @@ def line(line)
     puts "The line is currently empty."
   else
     queue = "The line is currently:"
-    line.each_index { |position| queue + " #{position + 1}. #{line[position]"
+    line.each_index { |position| queue + " #{position + 1}. #{line[position]}" }
   end
+  puts queue
 end
