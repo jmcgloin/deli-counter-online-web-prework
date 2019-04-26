@@ -6,7 +6,7 @@ end
 
 def take_a_number(kd, person)
   kd.push(person)
-  puts "Welcome, #{person}. You are number #{kd.count} in line."
+  puts kd.count == 0 ? "The line is currently empty." : "Welcome, #{person}. You are number #{kd.count} in line."
 end
 
 def now_serving(kd)
